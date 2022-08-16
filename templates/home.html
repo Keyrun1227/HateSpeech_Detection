@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#FFCCCB>
+
+        <center>
+
+        <h1> <u>HATE SPEECH DETECTION </u></h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> ENTER SPEECH:  <input type="text", name='speech', placeholder="Speech"> <br><br><br></b>
+   
+            <button type="submit">PREDICTION</button>
+        </form>
+
+        <h3>{{ prediction_speech }}</h3>
+
+        <img src='static\scold.jpg' alt="hat">
+        
+    </center>
+
+    </body>
+</html>
